@@ -45,9 +45,8 @@ There are also `--download`, `--download-latest`, `--upload` and
 Your own **Wasabi S3** credentials and a bucket. The application stores them
 encrypted on your machine.
 
-It was built around one studio's folder conventions, so some of the automatic
-matching between a local path and its bucket counterpart expects that shape. The
-browsing, transferring and comparing work with any bucket.
+Comparing works on any pair of folders, VFX-related or not: it only needs both
+sides to be standing on a folder with the same name.
 
 ---
 
