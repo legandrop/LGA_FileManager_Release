@@ -1,6 +1,16 @@
 # What's new in LGA FileManager S3
 
-## v0.917 (2026-10-04)
+## v0.918 (2026-10-13)
+
+- **New:** Task information distinguishes the responsible artists from Viewers who retain access. Role changes refresh task information even when the assigned names stay the same.
+- **New:** Tabs take the color of their project, toned down to fit the tab bar, and favorites without a color of their own show it too. (Studio only)
+- **New:** Right-click a tab to jump to any active project straight from the menu, without saving it as a favorite first. (Studio only)
+- **New:** Right-click a tab and choose Reset tab color to remove a color you set by hand.
+- **Improved:** The installer is much smaller (about 51 MB instead of 188 MB), so updates download faster, and FileManager S3 takes about 700 MB less disk space. (Windows only)
+- **Improved:** Renaming or moving a folder in the Wasabi panel retries by itself when the connection drops halfway, instead of leaving part of the files behind.
+- **Fixed:** Downloads started from the command line appear in Activity immediately and finish correctly there even if a transfer notification is missed.
+
+## v0.917
 
 - **New:** Right-click a sequence in the Wasabi panel and choose Download first, middle & last frames to check it without downloading the whole thing.
 - **New:** An arrow between the two path bars opens the Local folder on the Wasabi side; hold Shift and it flips to open the Wasabi folder on the Local side.
