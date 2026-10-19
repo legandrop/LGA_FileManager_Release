@@ -1,6 +1,18 @@
 # What's new in LGA FileManager S3
 
-## v0.918 (2026-10-13)
+## v0.919 (2026-10-18)
+
+- **New:** Nuke Studio can upload the project you just saved straight to Wasabi, asking first only if that file is already there.
+- **New:** Ctrl+Alt+click a folder (Cmd+Option+click on Mac), or right-click it and choose Expand all subfolders, to open it together with all its subfolders.
+- **New:** In the Wasabi panel you can copy files and folders and paste them into another Wasabi folder without downloading them: right-click Copy (Ctrl+C), then Paste in each destination. Files that already exist there are never overwritten.
+- **Improved:** Renaming or moving many individual files in Wasabi, like the frames of a sequence, is now many times faster.
+- **Fixed:** Quitting no longer leaves the app frozen when a Wasabi listing is still arriving.
+- **Fixed:** Opening the app no longer sometimes shows "The listing failed" on the Wasabi tabs. (Windows only)
+- **Fixed:** Renaming individual files in Wasabi no longer waits up to fifteen minutes on a stalled connection before continuing with the remaining files.
+- **Fixed:** A Wasabi move or rename that can't be done, for example because the destination already has an item with that name, now shows as failed in Activity instead of done.
+- **Fixed:** Cutting items in Wasabi, opening another folder and pasting now moves the items you cut, not other items with the same name.
+
+## v0.918
 
 - **New:** Task information distinguishes the responsible artists from Viewers who retain access. Role changes refresh task information even when the assigned names stay the same.
 - **New:** Tabs take the color of their project, toned down to fit the tab bar, and favorites without a color of their own show it too. (Studio only)
