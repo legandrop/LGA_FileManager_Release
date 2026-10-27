@@ -1,5 +1,15 @@
 # What's new in LGA FileManager S3
 
+## v1.000 (2026-10-27)
+
+- **Improved:** Download first, middle & last frames también aparece con Compare activo, y cada frame baja a su carpeta del shot sin tener que entrar a ella.
+- **Improved:** el botón Download del Media Manager de Nuke pregunta si saltear o pisar los archivos que ya tenés en disco, en vez de pisarlos.
+- **Improved:** el tab ACTIVITY ahora se llama QUEUE: es el mismo de siempre, con las subidas y descargas a Wasabi.
+- **Fixed:** Con Compare activo, mover, renombrar, cortar y pegar o copiar en el panel de Wasabi ya muestra el resultado al terminar, y Refresh ya no vuelve a mostrar las carpetas como estaban antes.
+- **Fixed:** Mover o renombrar una carpeta en Wasabi ya no aparece como fallido en QUEUE cuando en realidad se movió completa.
+- **Fixed:** El texto de Download first, middle & last frames en el click derecho ya no se ve cortado como «middle _last».
+- **Fixed:** Download clip de Nuke Studio ya no vuelve a bajar los clips que ya tenés en disco: los saltea sin preguntar, y ya no falla con los que están abiertos en Nuke Studio.
+
 ## v0.919 (2026-10-18)
 
 - **New:** Nuke Studio can upload the project you just saved straight to Wasabi, asking first only if that file is already there.
