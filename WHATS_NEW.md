@@ -1,5 +1,9 @@
 # What's new in LGA FileManager S3
 
+## v1.001 (2026-11-03)
+
+- **Fixed:** en QUEUE, el ETA ya no aparece cortado mientras se calcula: muestra --:-- hasta tener velocidad, y Stalled si la transferencia se frena.
+
 ## v1.000 (2026-10-27)
 
 - **Improved:** Download first, middle & last frames también aparece con Compare activo, y cada frame baja a su carpeta del shot sin tener que entrar a ella.
