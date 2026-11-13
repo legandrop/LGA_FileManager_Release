@@ -1,5 +1,15 @@
 # What's new in LGA FileManager S3
 
+## v1.002 (2026-11-12)
+
+- **New:** Con click derecho sobre un archivo o una carpeta aparece Copy as Path, que copia su ruta como texto, o su dirección s3:// si está en Wasabi (también con Ctrl+Shift+C, o Cmd+Shift+C en Mac).
+- **Improved:** Si la conexión falla al buscar o bajar una actualización, la app espera y vuelve a probar sola hasta tres veces.
+- **Improved:** Ya no se puede bajar, subir, mover, copiar o borrar un archivo que otra transferencia está usando: la app te avisa cuál es y qué lo está usando, en vez de largar las dos a la vez. Lo demás de esa misma carpeta se sigue encolando, así que podés ir subiendo archivos de a uno mientras sube el resto.
+- **Fixed:** El primer tooltip que aparece al abrir la app ya no queda encima del puntero tapando el botón: sale debajo, como los demás. (macOS only)
+- **Fixed:** En QUEUE, un path largo ya no se escribe encima de las columnas Size y Progress: si no entra, se abrevia por el medio y deja a la vista el shot y el número de cuadro, y al pasar el mouse ves el path completo.
+- **Fixed:** Cancelar una subida o una descarga en QUEUE ahora la frena de verdad, y una subida ya no borra de Wasabi los archivos que ya estaban aunque la hayas lanzado con Overwrite existing.
+- **Fixed:** La pausa de QUEUE ahora frena también las descargas de archivos chicos, que antes seguían bajando aunque la cola dijera Paused.
+
 ## v1.001 (2026-11-03)
 
 - **Fixed:** en QUEUE, el ETA ya no aparece cortado mientras se calcula: muestra --:-- hasta tener velocidad, y Stalled si la transferencia se frena.
